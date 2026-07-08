@@ -1,0 +1,4 @@
+id_location;immatriculation;marque;modele;client_nom;categorie_client;date_debut;date_fin_prevue;date_retour_reelle;km_depart;km_retour;statut;tarif_jour_applique;montant_total;penalite_retard
+1;AA-123-BB;Renault;Clio;Fatou Ndiaye;PARTICULIER;2026-07-03;2026-07-07;2026-07-07;8500;8720;CLOTUREE;20000.0;80000.0;0.0
+2;BB-222-GG;Ford;Transit;SenLogistics SARL;ENTREPRISE;2026-06-28;2026-07-04;2026-07-07;9800;10400;CLOTUREE;40375.0;287250.0;45000.0
+3;CA-333-HH;Yamaha;MT-07;Agence Teranga Events;EVENEMENTIEL;2026-07-08;2026-07-10;;6200;;EN_COURS;0.0;0.0;0.0

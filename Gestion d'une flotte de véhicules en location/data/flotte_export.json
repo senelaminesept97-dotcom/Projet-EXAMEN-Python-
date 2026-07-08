@@ -1,0 +1,154 @@
+{
+  "nom_flotte": "Flotte Dakar Location",
+  "vehicules": [
+    {
+      "type": "Voiture",
+      "immatriculation": "AA-123-BB",
+      "marque": "Renault",
+      "modele": "Clio",
+      "kilometrage": 8720,
+      "statut": "DISPONIBLE",
+      "date_dernier_entretien": "2026-07-08",
+      "historique_entretien": [],
+      "nb_places": 5,
+      "categorie": "CITADINE"
+    },
+    {
+      "type": "Voiture",
+      "immatriculation": "AB-456-CC",
+      "marque": "Peugeot",
+      "modele": "308",
+      "kilometrage": 22000,
+      "statut": "DISPONIBLE",
+      "date_dernier_entretien": "2026-07-08",
+      "historique_entretien": [
+        {
+          "date_entretien": "2026-07-08",
+          "type_entretien": "Révision complète",
+          "kilometrage": 22000,
+          "cout": 75000.0,
+          "description": "Vidange + contrôle freins/pneus"
+        }
+      ],
+      "nb_places": 5,
+      "categorie": "BERLINE"
+    },
+    {
+      "type": "Voiture",
+      "immatriculation": "AC-789-DD",
+      "marque": "Toyota",
+      "modele": "RAV4",
+      "kilometrage": 15200,
+      "statut": "DISPONIBLE",
+      "date_dernier_entretien": "2026-07-08",
+      "historique_entretien": [],
+      "nb_places": 5,
+      "categorie": "SUV"
+    },
+    {
+      "type": "Voiture",
+      "immatriculation": "AD-321-EE",
+      "marque": "Dacia",
+      "modele": "Sandero",
+      "kilometrage": 41000,
+      "statut": "DISPONIBLE",
+      "date_dernier_entretien": "2026-07-08",
+      "historique_entretien": [],
+      "nb_places": 5,
+      "categorie": "CITADINE"
+    },
+    {
+      "type": "Utilitaire",
+      "immatriculation": "BA-111-FF",
+      "marque": "Renault",
+      "modele": "Master",
+      "kilometrage": 33500,
+      "statut": "DISPONIBLE",
+      "date_dernier_entretien": "2025-12-20",
+      "historique_entretien": [],
+      "charge_utile_kg": 1200,
+      "volume_m3": 12
+    },
+    {
+      "type": "Utilitaire",
+      "immatriculation": "BB-222-GG",
+      "marque": "Ford",
+      "modele": "Transit",
+      "kilometrage": 10400,
+      "statut": "DISPONIBLE",
+      "date_dernier_entretien": "2026-07-08",
+      "historique_entretien": [],
+      "charge_utile_kg": 1500,
+      "volume_m3": 15
+    },
+    {
+      "type": "Moto",
+      "immatriculation": "CA-333-HH",
+      "marque": "Yamaha",
+      "modele": "MT-07",
+      "kilometrage": 6200,
+      "statut": "LOUE",
+      "date_dernier_entretien": "2026-07-08",
+      "historique_entretien": [],
+      "cylindree_cm3": 689
+    },
+    {
+      "type": "Moto",
+      "immatriculation": "CB-444-II",
+      "marque": "Honda",
+      "modele": "PCX 125",
+      "kilometrage": 12500,
+      "statut": "DISPONIBLE",
+      "date_dernier_entretien": "2026-07-08",
+      "historique_entretien": [],
+      "cylindree_cm3": 125
+    }
+  ],
+  "locations": [
+    {
+      "id_location": 1,
+      "immatriculation_vehicule": "AA-123-BB",
+      "client_nom": "Fatou Ndiaye",
+      "categorie_client": "PARTICULIER",
+      "date_debut": "2026-07-03",
+      "date_fin_prevue": "2026-07-07",
+      "date_retour_reelle": "2026-07-07",
+      "km_depart": 8500,
+      "km_retour": 8720,
+      "statut": "CLOTUREE",
+      "tarif_jour_applique": 20000.0,
+      "montant_total": 80000.0,
+      "penalite_retard": 0.0
+    },
+    {
+      "id_location": 2,
+      "immatriculation_vehicule": "BB-222-GG",
+      "client_nom": "SenLogistics SARL",
+      "categorie_client": "ENTREPRISE",
+      "date_debut": "2026-06-28",
+      "date_fin_prevue": "2026-07-04",
+      "date_retour_reelle": "2026-07-07",
+      "km_depart": 9800,
+      "km_retour": 10400,
+      "statut": "CLOTUREE",
+      "tarif_jour_applique": 40375.0,
+      "montant_total": 287250.0,
+      "penalite_retard": 45000.0
+    },
+    {
+      "id_location": 3,
+      "immatriculation_vehicule": "CA-333-HH",
+      "client_nom": "Agence Teranga Events",
+      "categorie_client": "EVENEMENTIEL",
+      "date_debut": "2026-07-08",
+      "date_fin_prevue": "2026-07-10",
+      "date_retour_reelle": null,
+      "km_depart": 6200,
+      "km_retour": null,
+      "statut": "EN_COURS",
+      "tarif_jour_applique": 0.0,
+      "montant_total": 0.0,
+      "penalite_retard": 0.0
+    }
+  ]
+}
