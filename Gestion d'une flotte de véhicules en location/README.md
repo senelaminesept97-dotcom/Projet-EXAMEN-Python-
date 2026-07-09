@@ -7,7 +7,7 @@ maintenance, et persistance (JSON, CSV, SQLite/MySQL).
 ## Arborescence
 
 ```
-mon_projet/
+GFVL/
 │
 ├── main.py                    # Script de démonstration (point d'entrée)
 │
